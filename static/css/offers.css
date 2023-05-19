@@ -1,0 +1,11 @@
+.offers>div:nth-child(2)>article {
+    flex-direction: row;
+}
+
+.offers>div:nth-child(2)>article div {
+    flex-direction: column;
+}
+
+.offers>div:nth-child(2)>article:first-child {
+    background-color: #FCD5BA;
+}
