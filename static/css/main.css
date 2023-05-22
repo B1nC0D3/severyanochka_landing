@@ -78,14 +78,12 @@ section > div {
 
 section:not(:first-child) > div:first-child {
     width: 100%;
-    justify-content: space-between;
     padding-bottom: 40px;
 }
 
 section > div > button {
     display: flex;
     align-items: center;
-    margin-left: 48px;
 }
 
 .fav_button {
