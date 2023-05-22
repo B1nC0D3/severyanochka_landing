@@ -5,10 +5,10 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 0 116px;
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);  /* #TODO fix shadow visibility*/
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1); /* #TODO fix shadow visibility*/
 }
 
-nav>div {
+nav > div {
     margin-right: 40px;
 }
 
@@ -17,7 +17,7 @@ nav>div {
     align-items: center;
 }
 
-.logo>img:nth-child(2) {
+.logo > img:nth-child(2) {
     width: 100px;
     height: 11px;
     margin-left: 12px;
@@ -27,7 +27,7 @@ nav>div {
     display: flex;
 }
 
-.search>button {
+.search > button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -41,7 +41,7 @@ nav>div {
     margin-right: 16px;
 }
 
-.search>button>img {
+.search > button > img {
     margin-right: 20px;
 }
 
@@ -60,7 +60,7 @@ input {
     margin: 0;
 }
 
-.input_container>img {
+.input_container > img {
     position: absolute;
     bottom: 8px;
     right: 8px;
@@ -72,7 +72,8 @@ input {
     display: flex;
     width: 446px;
 }
-.user_actions>button {
+
+.user_actions > button {
     display: flex;
     flex-direction: column;
     margin: 11px 24px 11px 0;
@@ -82,11 +83,34 @@ input {
     font-size: 12px;
 }
 
-.user_actions>:nth-child(4) {
+.user_actions > button:nth-child(3) {
+    position: relative;
+}
+
+.user_actions > button:nth-child(3) span:first-child {
+    position: absolute;
+    top: -4px;
+    right: 18px;
+    width: 11px;
+    height: 11px;
+    background-color: #FF6633;
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 1px 1px 1px;
+}
+
+.user_actions > :nth-child(4) {
     flex-direction: row;
     font-size: inherit;
 }
 
-.user_actions>:nth-child(4)>img {
+.user_actions > :nth-child(4) > img:first-child {
     margin: 16px 0 16px 16px;
+}
+
+.user_actions > :nth-child(4) > img:last-child {
+    margin-left: 43px;
 }
