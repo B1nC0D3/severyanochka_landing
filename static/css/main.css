@@ -13,7 +13,7 @@ main {
 }
 
 .delivery_discount > div::before {
-    background-image: url(/static/img/main/delivery_background.png);
+    background-image: url("../img/main/delivery_background.png");
     content: ' ';
     display: flex;
     position: absolute;
