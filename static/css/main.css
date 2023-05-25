@@ -5,6 +5,7 @@ main {
 }
 
 .delivery_discount {
+    position: relative;
     height: 200px;
     display: flex;
     background-color: #fff;
@@ -13,15 +14,13 @@ main {
     align-items: center;
 }
 
-.delivery_discount > div::before {
+.delivery_discount::before {
     background-image: url(/static/img/main/delivery_background.png);
-    content: ' ';
+    content: '';
     display: flex;
     position: absolute;
-    top: 72px;
-    left: 0;
     width: 100%;
-    height: 200px;
+    height: 100%;
     opacity: 0.3;
 }
 
@@ -145,4 +144,28 @@ section article > div:nth-child(2) > div:first-child {
 .price-container div:first-child p:first-child {
     font-weight: 700;
     font-size: 18px;
+}
+
+@media screen and (max-width: 769px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .delivery_discount {
+        height: 160px;
+    }
+
+    .delivery_discount img {
+        width: 198px;
+        height: 132px;
+        align-self: end;
+    }
+
+    article:nth-child(n+4) {
+        display: none;
+    }
+
+    article {
+        max-width: 224px;
+    }
 }

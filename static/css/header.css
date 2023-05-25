@@ -10,8 +10,8 @@ nav {
     display: flex;
     background-color: #ffffff;
     align-items: center;
-    justify-content: space-between;
-    gap: 20px
+    justify-content: center;
+    gap: 40px
 }
 
 .logo {
@@ -38,10 +38,11 @@ nav {
     color: #fff;
     border-radius: 4px;
     background-color: #70C05B;
+    padding: 8px;
 }
 
 .search span {
-    padding: 0 25px;
+    padding: 0 26px;
 }
 
 input {
@@ -72,6 +73,7 @@ input {
     min-width: 446px;
     gap: 16px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .user_actions > button {
@@ -119,6 +121,7 @@ input {
     nav {
         max-width: 728px;
         margin: auto;
+        gap: 20px
     }
 
     .logo img:last-child {
@@ -131,6 +134,10 @@ input {
 
     .input_container input {
         min-width: 324px;
+    }
+
+    .user_actions {
+        min-width: 0;
     }
 
     .user_actions>button:last-child *:not(:first-child) {
