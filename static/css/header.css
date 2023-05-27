@@ -90,8 +90,8 @@ input {
 
 .user_actions > button:nth-child(3) span:first-child {
     position: absolute;
-    top: -4px;
-    right: 18px;
+    top: -5px;
+    right: 12px;
     width: 11px;
     height: 11px;
     background-color: #FF6633;
