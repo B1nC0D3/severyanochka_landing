@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="static/css/header.css">
     <link rel="stylesheet" href="static/css/promotions.css">
     <link rel="stylesheet" href="static/css/special_offers.css">
-    <link rel="stylesheet" href="static/css/main.css">
-    <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="static/css/map.css">
     <link rel="stylesheet" href="static/css/articles.css">
     <link rel="stylesheet" href="static/css/footer.css">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
 <header>
@@ -491,7 +491,7 @@
         </div>
     </section>
     <section class="map">
-        <div>
+        <div class="section_header">
             <h2>Наши магазины</h2>
         </div>
         <div>
@@ -509,92 +509,104 @@
         </div>
     </section>
     <section class="articles">
-        <div>
+        <div class="section_header">
             <h2>Статьи</h2>
             <button>
                 <span>Все статьи</span>
                 <img src="./static/img/main/logos/arrow_to_right.png" alt="">
             </button>
         </div>
-        <div>
+        <div class="articles_wrapper">
             <article>
-                <div>
+                <div class="article_image_wrapper">
                     <img src="static/img/main/article_1.png" alt="">
                 </div>
-                <div>
-                    <p>05.03.2021</p>
-                    <h4>Режим использования масок и перчаток на территории магазинов</h4>
-                    <p>
-                        Подробная информация о режимах использования масок и перчаток на территории магазинов "ЛЕНТА".
-                        Информация обновляется каждый будний день.
-                    </p>
-                </div>
-                <div>
-                    <button>Подробнее</button>
+                <div class="article_body">
+                    <div class="article_main">
+                        <p class="article_date">05.03.2021</p>
+                        <h4>Режим использования масок и перчаток на территории магазинов</h4>
+                        <p class="article_text">
+                            Подробная информация о режимах использования масок и перчаток на территории магазинов
+                            "ЛЕНТА".
+                            Информация обновляется каждый будний день.
+                        </p>
+                    </div>
+                    <div class="article_footer">
+                        <button>Подробнее</button>
+                    </div>
                 </div>
             </article>
             <article>
-                <div>
+                <div class="article_image_wrapper">
                     <img src="static/img/main/article_2.png" alt="">
                 </div>
-                <div>
-                    <p>05.03.2021</p>
-                    <h4>Весеннее настроение для каждой</h4>
-
-                    <p>
-                        8 Марта – это не просто Международный женский день, это ещё день тюльпанов,
-                        приятных сюрпризов и праздничных тёплых пожеланий.
-                    </p>
-                </div>
-                <div>
-                    <button class="active">Подробнее</button>
+                <div class="article_body">
+                    <div class="article_main">
+                        <p class="article_date">05.03.2021</p>
+                        <h4>Весеннее настроение для каждой</h4>
+                        <p class="article_text">
+                            8 Марта – это не просто Международный женский день, это ещё день тюльпанов,
+                            приятных сюрпризов и праздничных тёплых пожеланий.
+                        </p>
+                    </div>
+                    <div class="article_footer">
+                        <button class="active">Подробнее</button>
+                    </div>
                 </div>
             </article>
             <article>
-                <div>
+                <div class="article_image_wrapper">
                     <img src="static/img/main/article_3.png" alt="">
                 </div>
-                <div>
-                    <p>22.02.2020</p>
-                    <p>ЗОЖ или ФАСТФУД. А вы на чьей стороне? Голосуем!</p>
-                    <p>
-                        Голосуйте за любимые категории, выбирайте категорию-победителя в мобильном приложении
-                        и получайте кешбэк 10% баллами в апреле!
-                    </p>
-                </div>
-                <div>
-                    <button>Подробнее</button>
+                <div class="article_body">
+                    <div class="article_main">
+                        <p class="article_date">22.02.2020</p>
+                        <h4>ЗОЖ или ФАСТФУД. А вы на чьей стороне? Голосуем!</h4>
+                        <p class="article_text">
+                            Голосуйте за любимые категории, выбирайте категорию-победителя в мобильном приложении
+                            и получайте кешбэк 10% баллами в апреле!
+                        </p>
+                    </div>
+                    <div class="article_footer">
+                        <button>Подробнее</button>
+                    </div>
                 </div>
             </article>
         </div>
     </section>
 </main>
 <footer>
-    <div>
-    </div>
-    <div>
-        <div>
-            <a href="#"><img src="./static/img/footer/footer_logo.png" alt="Логотип Северяночки"></a>
-            <a href="#">О компании</a>
-            <a href="#">Контакты</a>
-            <a href="#">Вакансии</a>
-            <a href="#">Статьи</a>
-            <a href="#">Политика обработки финальных данных</a>
+    <div class="footer_wrapper">
+        <div class="site_map_wrapper">
+            <div class="footer_logo">
+                <a href="#"><img src="./static/img/footer/footer_logo.png" alt="Логотип Северяночки"></a>
+            </div>
+            <div class="site_map">
+                <a href="#">О компании</a>
+                <a href="#">Контакты</a>
+                <a href="#">Вакансии</a>
+                <a href="#">Статьи</a>
+                <a href="#">Политика обработки финальных данных</a>
+            </div>
         </div>
-        <div>
-            <img src="./static/img/footer/instagram.png" alt="">
-            <img src="./static/img/footer/vkontakte.png" alt="vk">
-            <img src="./static/img/footer/facebook.png" alt="fb">
-            <img src="./static/img/footer/ok.png" alt="ok">
+        <div class="contacts_wrapper">
+            <div class="contacts">
+                <div class="social_links">
+                    <img src="./static/img/footer/instagram.png" alt="">
+                    <img src="./static/img/footer/vkontakte.png" alt="">
+                    <img src="./static/img/footer/facebook.png" alt="">
+                    <img src="./static/img/footer/ok.png" alt="">
+                </div>
+                <div class="phone_num">
+                    <img src="./static/img/footer/phone.png" alt="">
+                    <p>8 800 777 33 33</p>
+                </div>
+            </div>
+            <div class="designer_contacts">
+                <p>Дизайн</p>
+                <img src="./static/img/footer/logo-zasovskiy-small-black.png" alt="designer-logo">
+            </div>
         </div>
-        <div>
-            <img src="./static/img/footer/phone.png" alt="">
-            <p>8 800 777 33 33</p>
-        </div>
-    </div>
-    <div>
-        <p>Дизайн</p>
-        <img src="./static/img/footer/logo-zasovskiy-small-black.png" alt="designer-logo">
     </div>
 </footer>
 </body>
